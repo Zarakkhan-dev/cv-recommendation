@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bas#)s_q3vji*s7*gdj2xb7o-r&%kc(#v_#(5u%&ejvg!_!*b=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -73,13 +73,6 @@ WSGI_APPLICATION = 'jobrecomendation.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 
 
 # Password validation
